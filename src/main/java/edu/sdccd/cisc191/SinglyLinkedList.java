@@ -38,7 +38,7 @@ class SinglyLinkedList<T>
             return pushedNode;
         }
         else{
-            pushedNode.next = head;     // makes pushedNode the new head of the l
+            pushedNode.next = head;     // makes pushedNode the new head of the list
             head = pushedNode;
         }
         return head;
