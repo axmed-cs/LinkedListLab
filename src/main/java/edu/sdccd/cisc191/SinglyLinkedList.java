@@ -6,7 +6,7 @@ class SinglyLinkedList<T>
     {
         T data;
         Node next;
-    };
+    }
 
     /**
      * recursively finds k-th node, deletes, and returns new head
@@ -38,7 +38,7 @@ class SinglyLinkedList<T>
             return pushedNode;
         }
         else{
-            pushedNode.next = head;     // makes pushedNode the new head of the list
+            pushedNode.next = head;     // makes pushedNode the new head of the l
             head = pushedNode;
         }
         return head;
