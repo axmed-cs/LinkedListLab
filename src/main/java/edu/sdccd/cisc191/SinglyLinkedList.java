@@ -51,7 +51,7 @@ class SinglyLinkedList<T>
      */
     public String toString(Node head)
     {
-        if(head == null) // if head is null then return a null (closed quotations)
+        if (head == null) // if head is null then return a null (closed quotations)
         {
             return "";
         }
